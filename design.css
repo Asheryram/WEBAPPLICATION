@@ -1,0 +1,70 @@
+body{
+    background-color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.clr{
+    clear: both;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-1{
+    background-color: #333;
+
+    padding: 20px;
+    margin: 50px 0;
+    border:3px dotted blueviolet;
+    border-radius: 50px;
+}
+.box-1 h1{
+    font-family: Tahoma;
+    font-style: italic;
+    color: brown;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color :yellow;
+}
+.categories ul{
+    font-style: italic;
+    font-size:small;
+    list-style:inside;
+}
+.block{
+    float: left;
+    width:33.3%;
+    border: 1px solid grey;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#mainblock{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: grey;
+    color: blueviolet;
+    padding: 15px;
+    box-sizing: border-box;
+
+
+}
+.pbox{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+}
